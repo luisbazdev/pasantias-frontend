@@ -1,6 +1,6 @@
 import { TextField, Divider } from '@mui/material';
 
-export default function Radiologia(){
+export default function Radiologia({radiologia}){
     return (
         <div className="flex_col gap_sm">
             <h2>Radiologia</h2>

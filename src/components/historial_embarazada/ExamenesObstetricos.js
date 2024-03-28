@@ -2,7 +2,7 @@ import { Button, Divider } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import ExamenObstetrico from './ExamenObstetrico';
 
-export default function ExamenesObstetricos(){
+export default function ExamenesObstetricos({examenes_obstetricos}){
     return (
         <div className="flex_col gap_sm">
             <h2>Examenes obstetricos</h2>

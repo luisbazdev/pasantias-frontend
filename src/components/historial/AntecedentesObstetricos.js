@@ -1,7 +1,7 @@
 import { Button, Divider } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import Embarazo from './Embarazo';
-export default function AntecedentesObstetricos(){
+export default function AntecedentesObstetricos({embarazos}){
     // si estas visualizando uno hecho, enviar peticion
     // si estas creando un historial nuevo, solo guardarlo
     return (

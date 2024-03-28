@@ -152,3 +152,42 @@
 .referencia{
   grid-template-columns: 180px 1fr 3fr;
 }
+
+.fechas{
+  align-items: center;
+  justify-content: center;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Aligns items with space between them */
+}
+
+.searchbar {
+  /* Style for the item to be centered */
+  margin: 0 auto; /* Centers the item horizontally */
+}
+
+.historial_card{
+  width: auto;
+  height: fit-content;
+  padding: 8px;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 10px;
+}
+
+.historiales_cont{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.historial_card_paciente{
+  font-weight: 580;
+}
+
+.historial_card_fecha{
+  font-size: 14px;
+}

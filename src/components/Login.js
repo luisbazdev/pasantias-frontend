@@ -2,9 +2,8 @@ import "./Login.css"
 
 export default function Login(){
     return (
-        <div className="login">
+        <div>
             <p>jaja</p>
-            <img/>
         </div>
     )
 }

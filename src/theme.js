@@ -10,6 +10,11 @@ const roboto = Roboto({
 
 const theme = createTheme({
     components: {
+      MuiInputBase: {
+        defaultProps: {
+          disableInjectingGlobalStyles: true,
+        },
+      },
       MuiTextField: {
         defaultProps: {
           size: 'small',

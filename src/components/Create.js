@@ -1,3 +1,4 @@
+import HistorialEmbarazada from "./HistorialEmbarazada";
 import Historial from "./principal/Historial";
 
 export default function Create(){
